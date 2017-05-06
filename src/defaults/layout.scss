@@ -1,6 +1,14 @@
 
-html, body, .App {
+html, body, .ReactApp, .App {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.App {
+    display: flex;
+}
+
+.Sidebar {
+    width: 250px;
 }

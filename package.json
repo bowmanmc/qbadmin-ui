@@ -103,8 +103,15 @@
   },
   "babel": {
     "presets": [
-      "react",
-      "stage-1"
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": "> 2%"
+          }
+        }
+      ],
+      "react"
     ],
     "env": {
       "development": {
