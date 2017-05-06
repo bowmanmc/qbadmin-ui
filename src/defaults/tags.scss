@@ -1,7 +1,11 @@
 
 body, html {
-    background: $clr-page-bg;
+    background: $clr-highlight;
     color: $clr-txt;
     margin: 0;
     padding: 0;
+}
+
+.App {
+    background: $clr-page-bg;
 }
