@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Sidebar from './components/sidebar';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/home';
 
 
 class App extends React.Component {

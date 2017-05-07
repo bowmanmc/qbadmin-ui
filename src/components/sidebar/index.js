@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 
 class Sidebar extends React.Component {
@@ -10,7 +11,10 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="Sidebar">
-                <h2>Sidebar</h2>
+                <nav>
+                    <Link to="/">Home</Link>
+                    <Link to="/enroll">Enroll</Link>
+                </nav>
             </div>
         );
     }
