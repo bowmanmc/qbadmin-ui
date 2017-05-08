@@ -10,10 +10,22 @@
         padding: 0.5em 0;
 
         a {
-            border: 1px solid #fff;
+            border-right: 3px solid transparent;
+            color: darken($clr-light, 3%);
             display: block;
+            margin-bottom: 1px;
             padding: 0.5em 1.0em;
             text-align: right;
+            text-decoration: none;
+            text-shadow: 0 0 0.25em $clr-page-bg;
+            transition: all 0.45s ease-out;
+
+            &:hover {
+                background: transparentize($clr-light, 0.92);
+                border-right: 3px solid $clr-highlight;
+                color: $clr-light;
+                text-shadow: 0 0 0.25em $clr-black;
+            }
         }
     }
 }
