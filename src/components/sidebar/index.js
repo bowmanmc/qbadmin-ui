@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router';
 
+import Logo from '../Logo';
+
 
 class Sidebar extends React.Component {
 
@@ -11,6 +13,9 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="Sidebar">
+                <div className="SidebarLogo">
+                    <Logo />
+                </div>
                 <nav>
                     <Link to="/">Home</Link>
                     <Link to="/enroll">Enroll</Link>

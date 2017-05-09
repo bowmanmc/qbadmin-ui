@@ -1,7 +1,9 @@
 
+$sb-border: 1px solid lighten($clr-page-bg, 7%);
+
 .Sidebar {
     background: darken($clr-page-bg, 3%);
-    border-right: 1px solid lighten($clr-page-bg, 7%);
+    border-right: $sb-border;
     box-shadow: 0 0 0.25em $clr-black;
     margin-right: 1.0em;
 
@@ -27,5 +29,18 @@
                 text-shadow: 0 0 0.25em $clr-black;
             }
         }
+    }
+}
+
+.SidebarLogo {
+    background: darken($clr-page-bg, 4%);
+    border-bottom: $sb-border;
+    padding: 0.25em 0.75em;
+    text-align: left;
+
+    svg {
+        fill: $clr-light;
+        height: 48px;
+        width: 48px;
     }
 }
